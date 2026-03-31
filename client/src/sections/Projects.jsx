@@ -1,5 +1,5 @@
-import carRentalImg from "@/assets/car-rental.png";
-import chatAppImg from '@/assets/chat-app.png';
+import personalJobTrackerImg from "@/assets/personal-job-tracker.png";
+import aiRoadmapImg from '@/assets/ai-roadmap.png';
 import todoImg from '@/assets/todo.png'
 import { ArrowUpRight, Github } from "lucide-react";
 
@@ -13,20 +13,20 @@ const projects = [
     github:"https://github.com/Rakshita006/todo",
   },
   {
-    title:"Car Rental App",
-    description:'Developed a full-stack car rental platform where users can explore vehicles, make bookings, and manage reservations. Implemented secure authentication and dynamic booking management using the MERN stack.',
-    image:carRentalImg,
+    title:"Prsonal Job Tracker",
+    description:'Built a full-stack Personal Job Tracker that streamlines the job application process by allowing users to manage applications in one centralized dashboard. The platform enables tracking of application stages (Applied, Interview, Rejected, Offer), adding notes, deadlines, and company-specific details.Implemented features like dynamic filtering, status updates, and responsive UI for a seamless user experience. Designed with scalability in mind, the application improves productivity and reduces manual tracking effort during job hunts.',
+    image:personalJobTrackerImg,
     tags:['MERN stack'],
-    link:'https://carrental-lac-zeta.vercel.app',
-    github:"https://github.com/Rakshita006/CARRENTAL-fullstack",
+    link:'https://job-application-tracker-two-ecru.vercel.app',
+    github:"https://github.com/Rakshita006/job-application-tracker",
   },
   {
-    title:"Chat App",
-    description:'Built a real-time chat application enabling instant messaging between users using WebSocket technology for seamless communication.',
-    image:chatAppImg,
-    tags:['MERN stack','socket.io'],
-    link:'https://chat-app-inky-chi-17.vercel.app',
-    github:"https://github.com/Rakshita006/chat-app",
+    title:"AI-roadmap-generator",
+    description:'An AI-powered tool that generates personalized learning roadmaps based on user goals, skills, and interests.The system analyzes user inputs such as current skill level, goals, and timeline to generate structured, step-by-step roadmaps.',
+    image:aiRoadmapImg,
+    tags:['MERN stack'],
+    link:'https://ai-roadmap-flame.vercel.app',
+    github:"https://github.com/Rakshita006/ai-roadmap",
   }
 ]
 
