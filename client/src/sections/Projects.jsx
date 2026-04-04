@@ -27,7 +27,15 @@ const projects = [
     tags:['MERN stack'],
     link:'https://ai-roadmap-flame.vercel.app',
     github:"https://github.com/Rakshita006/ai-roadmap",
-  }
+  },
+  {
+  title:"Fake-News-Detector",
+  description:'An AI-powered web application that detects whether a news article is real or fake using natural language processing. The system analyzes user input, provides a prediction with a confidence score, highlights key phrases, and fetches related real news articles for verification.',
+  image:fakeNewsImg,
+  tags:['Machine Learning','NLP','React','Flask'],
+  link:'https://fake-news-detector-tau-gules.vercel.app',
+  github:"https://github.com/Rakshita006/fake-news-detector",
+}
 ]
 
 
