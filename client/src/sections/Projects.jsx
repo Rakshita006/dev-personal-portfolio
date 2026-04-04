@@ -1,6 +1,7 @@
 import personalJobTrackerImg from "@/assets/personal-job-tracker.png";
 import aiRoadmapImg from '@/assets/ai-roadmap.png';
 import todoImg from '@/assets/todo.png'
+import fakeNewsImg from '@/assets/fake-news-detector.png'
 import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
