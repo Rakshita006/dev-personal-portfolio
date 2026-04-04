@@ -21,7 +21,7 @@ export const Hero = () => {
         </a>
 
         <a
-          href="/resume.pdf"
+          href="/webDeveloper.pdf"
           target="_blank"
           className="border px-6 py-2 rounded hover:bg-gray-800 transition"
         >
