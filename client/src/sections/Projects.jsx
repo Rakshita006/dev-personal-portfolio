@@ -2,6 +2,7 @@ import personalJobTrackerImg from "@/assets/personal-job-tracker.png";
 import aiRoadmapImg from '@/assets/ai-roadmap.png';
 import todoImg from '@/assets/todo.png'
 import fakeNewsImg from '@/assets/fake-news-detector.png'
+import disasterHubImg from '@/assets/disater-hub.png'
 import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
@@ -36,6 +37,14 @@ const projects = [
   tags:['Machine Learning','NLP','React','Flask'],
   link:'https://fake-news-detector-tau-gules.vercel.app',
   github:"https://github.com/Rakshita006/fake-news-detector",
+},
+{
+  title: "Real-Time Disaster Coordination Hub",
+  description: "A full-stack disaster relief platform where victims can post needs and volunteers can offer resources on a live interactive map. Features real-time updates using WebSockets, geolocation-based post clustering, role-based access control, and peer-to-peer chat between victims and volunteers.",
+  image: disasterHubImg,
+  tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io', 'Leaflet.js'],
+  link: 'https://disaster-hub-inky.vercel.app',
+  github: 'https://github.com/Rakshita006/disaster-hub',
 }
 ]
 
