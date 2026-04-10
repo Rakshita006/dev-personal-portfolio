@@ -2,18 +2,11 @@ import personalJobTrackerImg from "@/assets/personal-job-tracker.png";
 import aiRoadmapImg from '@/assets/ai-roadmap.png';
 import todoImg from '@/assets/todo.png'
 import fakeNewsImg from '@/assets/fake-news-detector.png'
-import disasterHubImg from '@/assets/disater-hub.png'
+import disasterHubImg from '@/assets/disaster-hub.png'
 import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
-  {
-    title:"Todo App",
-    description:'Built a responsive task management application that allows users to create, update, and track tasks efficiently with an intuitive user interface.',
-    image:todoImg,
-    tags:['React','Tailwind'],
-    link:'https://todo-lemon-ten-43.vercel.app',
-    github:"https://github.com/Rakshita006/todo",
-  },
+  
   {
     title:"Prsonal Job Tracker",
     description:'Built a full-stack Personal Job Tracker that streamlines the job application process by allowing users to manage applications in one centralized dashboard. The platform enables tracking of application stages (Applied, Interview, Rejected, Offer), adding notes, deadlines, and company-specific details.Implemented features like dynamic filtering, status updates, and responsive UI for a seamless user experience. Designed with scalability in mind, the application improves productivity and reduces manual tracking effort during job hunts.',
@@ -45,7 +38,15 @@ const projects = [
   tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io', 'Leaflet.js'],
   link: 'https://disaster-hub-inky.vercel.app',
   github: 'https://github.com/Rakshita006/disaster-hub',
-}
+},
+{
+    title:"Todo App",
+    description:'Built a responsive task management application that allows users to create, update, and track tasks efficiently with an intuitive user interface.',
+    image:todoImg,
+    tags:['React','Tailwind'],
+    link:'https://todo-lemon-ten-43.vercel.app',
+    github:"https://github.com/Rakshita006/todo",
+  }
 ]
 
 
