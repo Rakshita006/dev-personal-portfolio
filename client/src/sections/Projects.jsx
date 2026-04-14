@@ -3,6 +3,8 @@ import aiRoadmapImg from '@/assets/ai-roadmap.png';
 import todoImg from '@/assets/todo.png'
 import fakeNewsImg from '@/assets/fake-news-detector.png'
 import disasterHubImg from '@/assets/disaster-hub.png'
+import schoolDeskImg from '@/assets/stdentdesk.png'
+import foodBridgeImg from '@/assets/foodbridge.png'
 import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
@@ -15,6 +17,14 @@ const projects = [
     link:'https://job-application-tracker-two-ecru.vercel.app',
     github:"https://github.com/Rakshita006/job-application-tracker",
   },
+  {
+  title: "FoodBridge - Community Food Sharing Platform",
+  description: "A full-stack MERN application that connects people with surplus food to those who need it. Features include food listing with categories, real-time search and filter, claim system, expiry warning badges, ownership based delete, and a community impact page aligned with UN SDG 2 — Zero Hunger.",
+  image: foodBridgeImg,
+  tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Tailwind CSS', 'Axios', 'Day.js'],
+  link: 'https://foodbridge-green.vercel.app',
+  github: 'https://github.com/Rakshita006/foodbridge',
+},
   {
     title:"AI-roadmap-generator",
     description:'An AI-powered tool that generates personalized learning roadmaps based on user goals, skills, and interests.The system analyzes user inputs such as current skill level, goals, and timeline to generate structured, step-by-step roadmaps.',
@@ -38,6 +48,14 @@ const projects = [
   tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io', 'Leaflet.js'],
   link: 'https://disaster-hub-inky.vercel.app',
   github: 'https://github.com/Rakshita006/disaster-hub',
+},
+{
+  title: "SchoolDesk - School Management System",
+  description: "A full-stack school management platform where admins can manage students and assign tasks. Features JWT authentication, protected routes, real-time dashboard with charts, student CRUD operations, task assignment with priority and due dates, and status tracking with search and filter functionality.",
+  image: schoolDeskImg,
+  tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Recharts', 'Tailwind CSS'],
+  link: 'https://school-management-delta-self.vercel.app',
+  github: 'https://github.com/Rakshita006/school-management',
 },
 {
     title:"Todo App",
