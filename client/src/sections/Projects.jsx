@@ -5,9 +5,18 @@ import fakeNewsImg from '@/assets/fake-news-detector.png'
 import disasterHubImg from '@/assets/disaster-hub.png'
 import schoolDeskImg from '@/assets/stdentdesk.png'
 import foodBridgeImg from '@/assets/foodbridge.png'
+import careRouteImg from '@/assets/symptoms_checker.png'
 import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
+  {
+  title: "CareRoute",
+  description: "Built a full-stack health triage and care navigation app that helps users identify possible conditions based on symptoms and find nearby medical facilities. The platform features a custom weighted scoring algorithm that matches user-selected symptoms against a medical database to rank conditions by likelihood and severity. Integrated Nominatim OpenStreetMap API for real-time nearby hospital and clinic discovery based on user geolocation. Built with a multi-step flow — symptom selection, triage results, and an interactive Leaflet.js map showing the user's location alongside nearby facilities.",
+  image: careRouteImg,
+  tags: ['MERN Stack', 'REST API', 'Leaflet.js', 'OpenStreetMap'],
+  link: 'https://symptom-checker-lime-psi.vercel.app',
+  github: 'https://github.com/Rakshita006/Symptom-checker',
+},
   
   {
     title:"Prsonal Job Tracker",
