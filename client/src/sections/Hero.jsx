@@ -12,7 +12,7 @@ export const Hero = () => {
         deliver real value to users.
       </p>
 
-      <div className="mt-6 space-x-4">
+      <div className="mt-6 space-x-4 grid grid-cols-1 md:grid-cols-2">
         <a
           href="#projects"
           className="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition"
