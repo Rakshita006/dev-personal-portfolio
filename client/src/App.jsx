@@ -1,22 +1,22 @@
 import { Hero } from "@/sections/Hero"
-import { About } from "@/sections/About"
-import { Projects } from "@/sections/Projects"
-import { Contact } from "@/sections/Contact"
-import { Navbar } from "@/layout/Navbar"
-import { Skills } from "@/sections/Skills"
+
 import { Footer } from "@/sections/Footer"
+import Header from "./components/Header"
+import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 
 function App() {
   
   return (
     <>
       <div className="min-h-screen overflow-x-hidden">
-          <Navbar/>
+          
+          <Header/>
           <main>
             <Hero/>
-            <About/>
-            <Projects/>
             <Skills/>
+            <Projects/>
             <Contact/>
             <Footer/>
           </main>
